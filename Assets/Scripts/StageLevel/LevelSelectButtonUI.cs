@@ -36,6 +36,7 @@ namespace StageLevel
             button.enabled = true;
             button.interactable = true;
             button.onClick.AddListener(onClick.Invoke);
+            
         }
 
         private void PlayUnlockAnimation()
