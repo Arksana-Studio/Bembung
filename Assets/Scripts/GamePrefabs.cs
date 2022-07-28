@@ -17,4 +17,6 @@ public class GamePrefabs : SingletonMonoBehaviour<GamePrefabs>
     public GameObject gameplayUI;
     public TMP_Text gameOverTimeText;
     public TMP_Text gameOverScoreText;
+
+    [Header("Level UI")] public GameObject levelUIBtn;
 }

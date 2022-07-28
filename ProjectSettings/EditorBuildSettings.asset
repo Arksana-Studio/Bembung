@@ -11,6 +11,45 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gameplay.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
+  - enabled: 1
+    path: Assets/Scenes/Sample.unity
+    guid: c98364ced93c8484d804584f33a2764e
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 1.unity
+    guid: 41a59b23419b27e42a7c5f62a20c07b7
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 2.unity
+    guid: e57e719cc52425045b89f1f56ac0f8a0
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 3.unity
+    guid: 4dd61518dab4b6f4d99736e456c5fbf5
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 4.unity
+    guid: 3bca161ef337a994480625a4748dad17
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 5.unity
+    guid: fda28506867099e48a0f056109e5baaf
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 6.unity
+    guid: b6900f3e7e5c838408f0f395f110d994
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 7.unity
+    guid: 45e60d774de14f948b36ab2da3fcebfc
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 8.unity
+    guid: 701738c03f77cc046ae3edf78e7505b9
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 9.unity
+    guid: b6535281ca2b00e439c922e84b738f9f
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 10.unity
+    guid: 8488f330349a33848a5a42ab0ff8aaca
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 11.unity
+    guid: 9c88bc7e50c497741b08a610c66476df
+  - enabled: 1
+    path: Assets/Scenes/Standard/Standard_Level_ 12.unity
+    guid: 97137d9e8a8922c44a5b49506c045293
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 1a695bb1bbcfe05418630c2d97e3a86e,
       type: 2}
