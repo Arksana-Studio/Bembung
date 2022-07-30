@@ -40,5 +40,11 @@ namespace Utilities.SavingSystem
                     saveManager.LoadPlayerData();
             }
         }
+
+        protected override void Awake()
+        {
+            base.Awake();
+            LoadPlayerData();
+        }
     }
 }
