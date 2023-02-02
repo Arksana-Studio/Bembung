@@ -867,6 +867,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_MoveRepeatDelay: 0.5
   m_MoveRepeatRate: 0.1
   m_XRTrackingOrigin: {fileID: 0}
@@ -894,6 +895,7 @@ MonoBehaviour:
     type: 3}
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1043,12 +1045,6 @@ Transform:
   m_Father: {fileID: 254231109}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &786349719 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6097729705720184905, guid: 52d72ca543d660747a33f5823372ea0a,
-    type: 3}
-  m_PrefabInstance: {fileID: 6097729706798000765}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &839624937
 GameObject:
   m_ObjectHideFlags: 0
@@ -1171,7 +1167,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 59.75
+  m_fontSize: 8
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1392,12 +1388,6 @@ Transform:
   m_Father: {fileID: 254231109}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &928071362 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6097729705720184905, guid: 52d72ca543d660747a33f5823372ea0a,
-    type: 3}
-  m_PrefabInstance: {fileID: 1008976762}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &928993164
 GameObject:
   m_ObjectHideFlags: 0
@@ -1617,7 +1607,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 300
+  m_fontSize: 114.3
   m_fontSizeBase: 160
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2014,19 +2004,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8038bc30dec4ea086b797175823c1eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ringList:
-  - {fileID: 1867909485}
   ringPrefab: {fileID: 6741753847567225650, guid: 7091e371bdd2556449ccd42ceca1fbc6,
-    type: 3}
-  goalPrefab: {fileID: 7403433569724944992, guid: ee3760b528c626e458bb79f9cb225cc0,
     type: 3}
   ringsParent: {fileID: 65719269}
   ringRigidbodyList: []
-  mechanicList:
-  - {fileID: 786349719}
-  - {fileID: 928071362}
-  goalList:
-  - {fileID: 919132149288811426}
   ringSpawnPositionList:
   - {fileID: 1867909485}
   - {fileID: 1646687132}
@@ -2115,7 +2096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.319, y: 0.8701841}
   m_AnchorMax: {x: 0.65400004, y: 1}
-  m_AnchoredPosition: {x: 0.000015258789, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: -0.000015259}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &1367417945
@@ -2167,7 +2148,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 25.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2690,7 +2671,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.6255265}
   m_AnchorMax: {x: 1, y: 0.84564483}
-  m_AnchoredPosition: {x: 0.38320923, y: 0}
+  m_AnchoredPosition: {x: 0.38323975, y: 0}
   m_SizeDelta: {x: 0.76641846, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1670976812
@@ -3220,7 +3201,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 24.9
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -3611,12 +3592,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ringObjects: []
-  onTriggerEnterCallback:
-    m_PersistentCalls:
-      m_Calls: []
-  onTriggerExitCallback:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!1001 &6097729706798000765
 PrefabInstance:
   m_ObjectHideFlags: 0

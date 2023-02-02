@@ -26,6 +26,7 @@ namespace Utilities.SavingSystem
             saveData.scoreListStandard = JsonHelper.FromJson<int>(standardData);
         }
 
+#if UNITY_EDITOR
         [CustomEditor(typeof(SaveManager))]
         class SaveManagerEditor : Editor
         {
@@ -40,5 +41,6 @@ namespace Utilities.SavingSystem
                     saveManager.LoadPlayerData();
             }
         }
+#endif
     }
 }

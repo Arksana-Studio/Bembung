@@ -77,3 +77,4 @@ crashlytics-build.properties
 
 /Assets/LeanTween/Examples/
 *.keystore
+/Build
